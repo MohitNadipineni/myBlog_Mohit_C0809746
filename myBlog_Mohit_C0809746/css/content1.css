@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #527f85;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(160, 228, 255);
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header img {
+    width: 100px;
+    height: 80px;
+    border-radius: 25px;
+}
+
+nav {
+    background-color: #333;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 110px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-left: 10px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav li a:hover {
+    background-color: #111;
+    color: #8994c4;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+    float: left;
+    width: 29%;
+    padding: 20px;
+    height: 400px;
+    /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pimg {
+    float: left;
+}
+
+.pimg img {
+    margin-left: 10px;
+    width: 90%;
+    height: 190px;
+    border-radius: 70px;
+}
+
+img a {
+    text-decoration: none;
+}
+
+.column2 {
+    float: right;
+    width: 70%;
+    padding: 10px;
+    height: 400px;
+}
+
+.column2 .list ul {
+    list-style-type: none;
+    text-align: justify;
+}
+
+.column2 .list li {
+    margin-left: 50px;
+
+}
+
+.column2 .list li a {
+    display: block;
+    margin: 20px;
+}
+
+.column2 .list li a:hover {
+    color: lightcoral;
+}
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.all-browsers>h1,
+.browser {
+    margin: 10px;
+    padding: 5px;
+}
+
+.browser {
+    background: white;
+}
+
+.browser>h2,
+p {
+    margin: 4px;
+    font-size: 90%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #527f85;
+    color: white;
+}
